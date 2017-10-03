@@ -1,0 +1,88 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{73, 81}, {451, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "question_label",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "E5DC339D-C19D-4AA4-8986-952F7FBEF8C3",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "The number of seconds since the object has dropped",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{73, 137}, {200, 32}}",
+        "class" : "TextField",
+        "attributes" : {
+          "name" : "seconds_textbox",
+          "frame" : "{{412, 368}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "8E999920-25C9-4F78-96A1-8CA503E6072D",
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "font_size" : 17,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{73, 193}, {315, 31}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "height_answer_label",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "E0718844-835B-431D-BBC7-46C0C116CA36",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "The height of the object is:",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{73, 232}, {139, 32}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "calculate_touch_up_inside",
+          "frame" : "{{472, 368}, {80, 32}}",
+          "title" : "Calculate",
+          "uuid" : "E97E44AA-9B1B-4EA1-90CC-10A33FFFFEF0",
+          "class" : "Button",
+          "name" : "calculate_button",
+          "font_size" : 15
+        },
+        "selected" : true
+      }
+    ],
+    "frame" : "{{0, 0}, {1024, 768}}",
+    "class" : "View",
+    "attributes" : {
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "selected" : false
+  }
+]
